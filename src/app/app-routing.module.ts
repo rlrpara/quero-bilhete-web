@@ -9,30 +9,13 @@ import { PerfilComponent } from './pages/perfil/perfil.component';
 import { UsuariosComponent } from './pages/usuarios/usuarios.component';
 
 const routes: Routes = [
-  {
-    path: "",
-    component: DashboardComponent
-  },
-  {
-    path: "administrativo",
-    component: AdministracaoComponent
-  },
-  {
-    path: "empresas",
-    component: EmpresasComponent
-  },
-  {
-    path: "login",
-    component: LoginComponent
-  },
-  {
-    path: "perfil",
-    component: PerfilComponent
-  },
-  {
-    path: "usuarios",
-    component: UsuariosComponent
-  }
+  { path: "", component: DashboardComponent },
+  { path: "administrativo", component: AdministracaoComponent },
+  { path: "dashboard", component: DashboardComponent },
+  { path: "empresas", component: EmpresasComponent },
+  { path: "login", component: LoginComponent },
+  { path: "perfil", component: PerfilComponent },
+  { path: "usuarios", component: UsuariosComponent }
 ];
 
 @NgModule({

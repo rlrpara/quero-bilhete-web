@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
 import { NgxSpinnerModule } from "ngx-spinner";
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -42,7 +43,8 @@ import { FooterComponent } from './components/shared/footer/footer.component';
       preventDuplicates: true,
       progressBar: true,
       closeButton: true
-    })
+    }),
+    BsDropdownModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]

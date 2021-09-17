@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdministracaoComponent implements OnInit {
 
+  public titulo = 'Administração';
+
   constructor() { }
 
   ngOnInit() {
