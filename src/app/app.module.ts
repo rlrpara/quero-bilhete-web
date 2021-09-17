@@ -10,24 +10,26 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './pages/login/login.component';
 import { NavComponent } from './components/shared/nav/nav.component';
-import { TitleComponent } from './components/shared/title/title.component';
 import { AdministracaoComponent } from './pages/administracao/administracao.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { EmpresasComponent } from './pages/empresas/empresas.component';
 import { PerfilComponent } from './pages/perfil/perfil.component';
 import { UsuariosComponent } from './pages/usuarios/usuarios.component';
+import { TittleComponent } from './components/shared/tittle/tittle.component';
+import { FooterComponent } from './components/shared/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    TittleComponent,
     NavComponent,
-    TitleComponent,
     AdministracaoComponent,
     DashboardComponent,
     EmpresasComponent,
     LoginComponent,
     PerfilComponent,
-    UsuariosComponent
+    UsuariosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
