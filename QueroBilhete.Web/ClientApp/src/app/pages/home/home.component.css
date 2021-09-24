@@ -1,0 +1,21 @@
+.container-fundo {
+  background-color: #f8f4cb;
+  padding: 20px 0px 20px 0px
+}
+
+.caixa-busca-passagem {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.texto-passagem {
+  font-weight: bold;
+  width: 400px;
+  text-align: center;
+  color: #853f05;
+  padding-bottom: 15px;
+}

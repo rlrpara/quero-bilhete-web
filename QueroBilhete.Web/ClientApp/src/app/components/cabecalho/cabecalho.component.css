@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+}
+
+.container .container-itens {
+  width: 100%;
+}
+.container .container-itens .logo {
+  height: 50px;
+}
+
+.container .container-itens .atendimento {
+  padding: 0px 0px 0px 80%;
+}
+
+.container .container-itens .atendimento a {
+  color: #fff;
+}
+
+.container .container-itens .atendimento a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container .container-itens .botao-head {
+  margin: 0px 5px;
+}
+
